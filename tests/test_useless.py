@@ -1,4 +1,4 @@
-import useless
+from src.useless import useless
 
 def test_useless():
-  assert useless(True) is True
+    assert useless(True) is True
